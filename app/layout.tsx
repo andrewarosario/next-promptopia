@@ -1,3 +1,4 @@
+import Nav from '@components/Nav';
 import '@styles/globals.css';
 
 export const metadata = {
@@ -19,6 +20,7 @@ export default function RootLayout({
         </div>
 
         <main className="app">
+          <Nav />
           {children}
         </main>
       </body>
